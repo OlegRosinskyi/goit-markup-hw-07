@@ -1,0 +1,189 @@
+/* --------------FOUTER ------------*/
+
+.footer {
+  background: #2f303a;
+  padding: 60px 0px;
+}
+.footer-container {
+  display: flex;
+}
+.footer-left-part {
+  margin-right: 70px;
+}
+.footer-log {
+  transition-duration: 250ms;
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  display: inline-block;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--s-second-text-color);
+  margin-bottom: 20px;
+}
+.footer-log:hover {
+  transform: scale(1.1);
+}
+
+.footer-log span {
+  color: #2196f3;
+}
+
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-link-address {
+  transition-property: color;
+  transition-duration: var(--animation-time);
+  transition-timing-function: var(--animation-function);
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--s-second-text-color);
+}
+/*.footer-link-address::after {
+  content: "    ";
+}*/
+.footer-link {
+  transition-property: color;
+  transition-duration: var(--animation-time);
+  transition-timing-function: var(--animation-function);
+
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-link-address:hover,
+.footer-link-address:focus {
+  color: var(--accent-color);
+}
+.footer-link:hover,
+.footer-link:focus {
+  color: var(--accent-color);
+}
+.footer-soc {
+  max-width: 206px;
+  padding-top: 12px;
+  margin-right: 94px;
+}
+.footer-soc-text {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--s-second-text-color);
+  margin-bottom: 20px;
+}
+
+.footer-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.footer-soc-item {
+  display: block;
+}
+.footer-soc-link {
+  transition-duration: var(--animation-time);
+  transition-property: background-color;
+  transition-timing-function: var(--animation-function);
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  fill: var(--main-accent-color);
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.footer-soc-link:hover,
+.footer-soc-link:focus {
+  background-color: var(--accent-color);
+}
+.footer-form {
+  /* max-width: 570px;*/
+  padding-top: 12px;
+}
+
+.footer-form-title {
+  /*font-style: normal;*/
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--s-second-text-color);
+  /*text-align: center;*/
+  margin-bottom: 12px;
+}
+
+.footer-form-box {
+  display: flex;
+}
+.footer-form-input {
+  transition-duration: var(--animation-time);
+  transition-property: border;
+  transition-timing-function: var(--animation-function);
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+  width: 358px;
+  height: 50px;
+  background-color: #2f303a;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  padding-left: 10px;
+  margin-right: 12px;
+}
+.footer-form-input:focus {
+  border: 1px solid var(--select-icon-color);
+  /*utline: none;*/
+}
+.footer-icon-send {
+  margin-left: 10px;
+  margin-right: 28px;
+  display: flex;
+  align-items: center;
+}
+.footer-btn {
+  transition-duration: var(--animation-time);
+  transition-property: opacity;
+  transition-timing-function: var(--animation-function);
+  padding: 8px 0px 8px 28px;
+
+  background-color: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+
+  /* identical to box height, or 188% */
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+
+  color: var(--main-btn-color);
+}
+.footer-btn:hover {
+  opacity: 0.8;
+}
