@@ -19,19 +19,6 @@
 /*Removes default browser settings.*/
 
 
-
-.list {
-  list-style: none;
-}
-
-.link {
-  text-decoration: none;
-}
-/*For invisible titles*/
-
-.footer-address {
-  font-style: normal;
-}
 .container {
   width: 1200px;
   padding-left: 15px;
