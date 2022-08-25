@@ -485,6 +485,8 @@ body {
 
 /* --------------FOUTER ------------*/
 .footer {
+  display: block;
+  width: 100%;
   background: #2f303a;
   padding: 60px 0px;
 }
