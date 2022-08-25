@@ -85,7 +85,6 @@
 /*-------------------------------------------FORM---------------------------------------------------*/
 
 .modal-form-data {
- 
   display: block;
   font-weight: 400;
   font-size: 12px;
@@ -95,12 +94,11 @@
 
   color: var(--second-text-color);
   margin-bottom: 4px;
- &-box {
-  position: relative;
-  margin-bottom: 10px;
+  &-box {
+    position: relative;
+    margin-bottom: 10px;
+  }
 }
-}
-
 
 .modal-form-input {
   transition-duration: var(--animation-time);
@@ -115,12 +113,12 @@
   padding-left: 42px;
   outline: none;
   &:focus {
-  border: 1px solid var(--select-icon-color);
-  /*utline: none;*/
-}
-&:focus + .form-icon {
-  fill: var(--select-icon-color);
-}
+    border: 1px solid var(--select-icon-color);
+    /*utline: none;*/
+  }
+  &:focus + .form-icon {
+    fill: var(--select-icon-color);
+  }
 }
 
 .form-icon {
@@ -131,7 +129,7 @@
   left: 12px;
   top: 50%;
   /*transform: translateY(25%);*/
-  outline: 2px solid red;
+  /* outline: 2px solid red;*/
 }
 .modal-form-textarea-box {
   margin-bottom: 20px;
@@ -170,8 +168,8 @@
   /*margin-bottom: 20px;*/
   outline: none;
   &:focus {
-  border: 1px solid #2196f3;
-}
+    border: 1px solid #2196f3;
+  }
 }
 
 .modal-form-span {
@@ -191,37 +189,35 @@
 
   padding-left: 23px;
   &-color {
-  
-  padding-left: 4px;
-  padding-right: 4px;
-  text-decoration: underline;
+    padding-left: 4px;
+    padding-right: 4px;
+    text-decoration: underline;
 
-  color: var(--modal-text-color);
+    color: var(--modal-text-color);
+  }
 }
-
 
 .form-icon-checbox {
   position: absolute;
   left: 14px;
 
-  outline: 2px solid red;
+  /* outline: 2px solid red;*/
   box-shadow: none;
   z-index: 0;
-  
-  &-activ {
-  transition-duration: var(--animation-time);
-  transition-property: z-index;
-  transition-timing-function: var(--animation-function);
-  display: block;
-  position: absolute;
-  left: 14px;
 
-  outline: 2px solid blue;
-  background-color: #fff;
-  box-shadow: none;
-  z-index: 0;
-  
-}
+  &-activ {
+    transition-duration: var(--animation-time);
+    transition-property: z-index;
+    transition-timing-function: var(--animation-function);
+    display: block;
+    position: absolute;
+    left: 14px;
+
+    /*outline: 2px solid blue;*/
+    background-color: #fff;
+    box-shadow: none;
+    z-index: 0;
+  }
 }
 
 .modal-form-input-chb:checked + .form-icon-checbox {
@@ -256,6 +252,6 @@
 
   color: var(--main-btn-color);
   &:hover {
-  opacity: 0.8;
-}
+    opacity: 0.8;
+  }
 }

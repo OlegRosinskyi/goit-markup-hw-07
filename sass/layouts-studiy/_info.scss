@@ -56,9 +56,8 @@
   justify-content: center;
   gap: 10px;
   padding-bottom: 30px;
-}
 
-.info-soc-link {
+  &-link {
   transition-duration: var(--animation-time);
   transition-property: fill, background-color;
   transition-timing-function: var(--animation-function);
@@ -70,12 +69,16 @@
   align-items: center;
   justify-content: center;
   fill: #afb1b8;
+  &:hover,
+&:focus {
+  fill: var(--main-accent-color);
+  background-color: var(--accent-color);
+}
 }
 /*.info-soc-icon {
   outline: 2px solid black;
 } */
-.info-soc-link:hover,
-.info-soc-link:focus {
-  fill: var(--main-accent-color);
-  background-color: var(--accent-color);
+
+
 }
+
