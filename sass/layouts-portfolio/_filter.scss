@@ -1,16 +1,16 @@
 .filter {
   padding: 94px 0px;
 
-  &-list {
+  &__list {
     display: flex;
     justify-content: center;
     margin-bottom: 56px;
   }
-  &-item:not(:last-child) {
+  &__item:not(:last-child) {
     margin-right: 9px;
   }
 
-  &-btn {
+  &__btn {
     transition-duration: var(--animation-time);
     transition-property: background-color, color, box-shadow;
     transition-timing-function: var(--animation-function);
